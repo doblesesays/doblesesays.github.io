@@ -27,7 +27,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
-	color: #8e43e7;
+	color: #f73859;
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 	font-style: normal;
@@ -93,11 +93,12 @@ a {
 	text-decoration: none;
 	transition: .4s;
 	-webkit-transition: all .4s ease-in-out;
+	color: #000;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #82B60B;
+	color: #f73859;
 }
 
 button:focus {
@@ -130,7 +131,7 @@ textarea:focus {
 .scroll-area i {
 	width: 46px;
 	height: 46px;
-	background-color: #8e43e7;
+	background-color: #f73859;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -182,7 +183,7 @@ textarea:focus {
 #preloader .preloader span:last-child {
 	animation-delay: -0.8s;
 	-webkit-animation-delay: -0.8s;
-	background-color: #8e43e7;
+	background-color: #f73859;
 }
 
 @keyframes preloader {
@@ -219,28 +220,28 @@ textarea:focus {
 	transition: all .3s ease-in-out;
 	border-radius: 15px;
 	color: #fff;
-	background-color: #8e43e7;
-	border-color: #8e43e7;
-	border: 1px solid #731cdb;
+	background-color: #f73859;
+	border-color: #f73859;
+	border: 1px solid #fd5873;
 }
 
 .button:hover {
 	color: #fff;
-	background-color: #7a21e3;
-	border-color: #731cdb;
+	background-color: #fd5873;
+	border-color: #fd5873;
 }
 
 .button:focus,
 .button.focus {
 	color: #fff;
-	background-color: #7a21e3;
-	border-color: #731cdb;
-	box-shadow: 0 0 0 0.2rem rgba(159, 95, 235, 0.5);
+	background-color: #fd5873;
+	border-color: #fd5873;
+	box-shadow: 0 0 0 0.2rem #ff6b84;
 }
 
 .button-hover {
 	background: none;
-	color: #731cdb;
+	color: #fd5873;
 }
 
 
@@ -302,7 +303,7 @@ textarea:focus {
 }
 
 .logo h2 a {
-	color: #8e43e7;
+	color: #f73859;
 }
 
 
@@ -834,7 +835,7 @@ h5.sub-title {
 
 .testimonial-full {
 	box-shadow: 0 10px 30px 0 rgba(54, 56, 110, .15);
-	padding: 70px 20px 70px;
+	padding: 30px 17px 10px;
 	text-align: center;
 	border-radius: 6px;
 }
@@ -1168,7 +1169,7 @@ h5.sub-title {
 
 .contact-form form input[type="text"]:focus,
 .contact-form form input[type="email"]:focus {
-	border-color: #8e43e7;
+	border-color: #f73859;
 }
 
 .contact-form form input[type="submit"] {
@@ -1188,7 +1189,7 @@ h5.sub-title {
 }
 
 .contact-form form textarea:focus {
-	border-color: #8e43e7;
+	border-color: #f73859;
 }
 
 span.success-message {
@@ -1200,7 +1201,7 @@ span.success-message {
     padding: 12px 20px;
 }
 .formError {
-    color: #8e43e7;
+    color: #f73859;
     margin: 0;
     padding-bottom: 18px;
     margin-top: -18px;
