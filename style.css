@@ -715,7 +715,7 @@ h5.sub-title {
 
 .resume-item-full p {
 	margin-top: 14px;
-	word-break: break-all;
+	word-break: nowrap;
 	font-size: 17px;
 	font-weight: 300;
 }
